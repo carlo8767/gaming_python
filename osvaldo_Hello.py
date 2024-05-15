@@ -1,2 +1,2 @@
-user = "Osvaldo"
+user = input("Input your username: ")
 print(f'hello {user}')
