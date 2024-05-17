@@ -9,7 +9,7 @@ x = 0
 running = True
 mole_image = pygame.image.load('dog.webp')
 mole_image = pygame.transform.scale(mole_image, (70, 70))
-mole_rect = mole_image.get_rect()
+
 
 # the overall event loop
 while running:
