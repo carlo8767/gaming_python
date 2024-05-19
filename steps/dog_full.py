@@ -21,7 +21,7 @@ mole_timer = 0
 mole_interval = 2000  # 2 seconds
 
 # Load the mole image
-mole_image = pygame.image.load('steps/dog.webp')
+mole_image = pygame.image.load('dog.png')
 mole_image = pygame.transform.scale(mole_image, (70, 70))
 mole_rect = mole_image.get_rect()
 
